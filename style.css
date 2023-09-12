@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#calculator {
+    height: 500px;
+    width: 420px;
+    margin-left: 36%;
+    margin-top: 10%;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+#display,#formula-screen{
+    width: 96%;
+    padding: 2%;
+}
+
+#display {
+    height: 40px;
+    font-size: 24px;
+    text-align: end;
+}
+
+#formula-screen {
+    height: 30px;
+    text-align: end;
+}
+
+#keypad {
+    width: 100%;
+    height: 396px;
+}
+
+button {
+    width: 105px;
+    height: 100%;
+    padding: 0;
+    border: black solid 2px;
+    background-color: #4d4d4d;
+    color: white;
+    font-size: 20px;
+}
+button:hover {
+    background-color: darkgray;
+}
+
+#zero {
+    width: 210px;
+}
+
+.row {
+    height: 20%;
+    width: 100%;
+    font-size: 0;
+}
+.double-width-button {
+    width: 210px;
+}
+
+.double-height-button {
+    height: 159px;
+    position: fixed;
+}
+
+#clear {
+    background-color: darkred;
+    color: white;
+}
+
+#clear:hover {
+    background-color: red;
+}
+
+#equals {
+    background-color: darkblue;
+    color: white;
+}
+
+#equals:hover {
+    background-color: blue;
+}
